@@ -9,7 +9,7 @@ displayName = "Incurable"
 authors = "TeamPotato"
 description = '''
 这是一个非常简单的模组，添加了“禁疗”的药水效果，持有者将无法以任何形式恢复血量。
-此效果目前只能通过/effect指令获得，若想在生存模式中正常使用，请整合包作者自行魔改。
+此效果目前只能通过/effect指令和创造模式物品栏获得，若想在生存模式中正常使用，请整合包作者自行魔改。
 '''
 
 [[dependencies.incurable]]
