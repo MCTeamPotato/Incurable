@@ -1,0 +1,11 @@
+{
+  "effect.incurable.incurable": "Incurable",
+  "effect.incurable.incurable.desc": "Entities holding this effect will not be able to regain health.",
+  "effect.incurable.incurable.description": "Entities holding this effect will not be able to regain health.",
+  "item.minecraft.lingering_potion.effect.long_incurable": "Lingering Potion of Incurable",
+  "item.minecraft.lingering_potion.effect.incurable": "Lingering Potion of Incurable",
+  "item.minecraft.splash_potion.effect.long_incurable": "Splash Potion of Incurable",
+  "item.minecraft.splash_potion.effect.incurable": "Splash Potion of Incurable",
+  "item.minecraft.potion.effect.long_incurable": "Potion of Incurable",
+  "item.minecraft.potion.effect.incurable": "Potion of Incurable"
+}

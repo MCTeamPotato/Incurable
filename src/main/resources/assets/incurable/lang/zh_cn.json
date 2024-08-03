@@ -1,0 +1,11 @@
+{
+  "effect.incurable.incurable": "禁疗",
+  "effect.incurable.incurable.desc": "持有此药水效果的生物将无法恢复血量。",
+  "effect.incurable.incurable.description": "持有此药水效果的生物将无法恢复血量。",
+  "item.minecraft.lingering_potion.effect.long_incurable": "滞留型禁疗药水",
+  "item.minecraft.lingering_potion.effect.incurable": "滞留型禁疗药水",
+  "item.minecraft.splash_potion.effect.long_incurable": "喷溅型禁疗药水",
+  "item.minecraft.splash_potion.effect.incurable": "喷溅型禁疗药水",
+  "item.minecraft.potion.effect.long_incurable": "禁疗药水",
+  "item.minecraft.potion.effect.incurable": "禁疗药水"
+}
