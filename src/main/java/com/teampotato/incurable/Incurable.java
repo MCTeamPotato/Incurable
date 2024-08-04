@@ -15,11 +15,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 @SuppressWarnings("unused")
 public class Incurable {
     public static final String MOD_ID = "incurable";
-    private static final DeferredRegister<MobEffect> MOB_EFFECT_DEFERRED_REGISTER = DeferredRegister.create(ForgeRegistries.POTIONS, MOD_ID);
+    public static final DeferredRegister<MobEffect> MOB_EFFECT_DEFERRED_REGISTER = DeferredRegister.create(ForgeRegistries.POTIONS, MOD_ID);
 
-    private static final DeferredRegister<Potion> POTION_DEFERRED_REGISTER = DeferredRegister.create(ForgeRegistries.POTION_TYPES, MOD_ID);
+    public static final DeferredRegister<Potion> POTION_DEFERRED_REGISTER = DeferredRegister.create(ForgeRegistries.POTION_TYPES, MOD_ID);
 
-    private static final RegistryObject<MobEffect> INCURABLE = MOB_EFFECT_DEFERRED_REGISTER.register(MOD_ID, () -> IncurableEffect.INSTANCE);
+    public static final RegistryObject<MobEffect> INCURABLE = MOB_EFFECT_DEFERRED_REGISTER.register(MOD_ID, () -> IncurableEffect.INSTANCE);
 
     public static final RegistryObject<Potion> INCURABLE_POTION = POTION_DEFERRED_REGISTER.register(MOD_ID, () -> new Potion(MOD_ID, new MobEffectInstance(IncurableEffect.INSTANCE, 1800)));
     public static final RegistryObject<Potion> LONG_INCURABLE_POTION = POTION_DEFERRED_REGISTER.register("long_" + MOD_ID, () -> new Potion("long_" + MOD_ID, new MobEffectInstance(IncurableEffect.INSTANCE, 4800)));
